@@ -1,6 +1,6 @@
 /* Style the rectangle box */
-.dude{
-  margin-right: 400px;
+.layout2{
+  display: inline-block;
 }
 .tweet-input{
   font-family: 'Roboto', sans-seri
@@ -11,13 +11,11 @@
   margin-top: 50px;
   border: transparent solid;
   display: block;
-  margin-left: 400px;
 
 }
 
 .posting-box {
-  background-color: transparent
-  border: 2px solid #000;
+  background-color: transparent;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -51,15 +49,16 @@
 }
 .img{
   width: 60px;
+  border-radius: 200px;
 }
 
 
 
 .container_1 {
   width: 170px;
-  margin-left: 468px;
   margin-top: 50px;
   display: inline-block;
+  margin-left: 100px;
 }
 .img_1{
   width:150px;
