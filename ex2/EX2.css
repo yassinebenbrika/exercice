@@ -1,10 +1,17 @@
 /* Style the rectangle box */
 .layout2{
   display: inline-block;
+  margin-top: 50px;
+  margin-right: 400px;
 }
 .tweet-input{
-  font-family: 'Roboto', sans-seri
+  font-family: 'Roboto', sans-seri;
 }
+
+.tweet-input::placeholder {
+  padding-top: 10px;
+}
+
 .container {
   width: 800px;
   margin: 0 auto;
@@ -65,10 +72,15 @@
   margin-right: 10px;
   margin-left: 10px;
 }
-.user_name{
+.user_name_1{
   margin-top: 10px;
   margin-left: 20px;
   font-weight: bold;
+  font-family: 'Roboto', sans-seri;
+
+}
+.comoun{
+  margin-left: 20px;
 }
 .wrap_1{
   margin-top: 20px;
@@ -164,6 +176,8 @@
   margin-top: 10px;
   margin-left: 20px;
   font-weight: bold;
+  font-family: 'Roboto', sans-seri;
+
 }
 .wrap_2{
   margin-top: 20px;
@@ -259,6 +273,8 @@
   margin-top: 10px;
   margin-left: 20px;
   font-weight: bold;
+  font-family: 'Roboto', sans-seri;
+
 }
 .wrap_3{
   margin-top: 20px;
